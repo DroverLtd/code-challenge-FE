@@ -83,5 +83,4 @@ Build good and reusable code and think about components not just one-off rushed 
 
 Use a FE library if you want. (We use http://getbootstrap.com 4)
 
-**Please push the repo to your GitHub account and share the link
-with us, DO NOT create a fork **
+** Please push the repo to your GitHub account and share the link with us, DO NOT create a fork **
