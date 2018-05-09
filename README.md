@@ -16,7 +16,7 @@ The page can be found at https://www.joindrover.com/cars/search and there are 2 
 
 Using https://github.com/facebook/create-react-app as a boilerplate (or any other you might prefer) try and get as much done as possible.
 
-We know people have different amounts of time to do this test so we have broken it down into sections based on amount of time you have. Please try and do as much as possible but if you only have time for one section we will be understanding of that, of course, the more you do the better an idea we have of your skills.
+We know people have different amounts of time to do this test so we have broken it down into sections based on amount of time you have. Please try and do as much as possible but if you only have time for one section we understand, of course, the more you do the better an idea we have of your skills.
  
  
 #### 1. Basic
