@@ -10,7 +10,7 @@ As we are a marketplace we need a way for drivers to search what vehicles are av
 
 The page can be found at https://www.joindrover.com/cars/search and there are 2 versions of it (Consumer, Private-Hire) with very small differences between the two.
 
------
+----
 
 ## What do we expect from you?
 
@@ -42,9 +42,9 @@ We know people have different amounts of time to do this test so we have broken 
 
 *Bonus:* add google autocomplete to the location in the search filters
 
-------
 
-## Extra info
+
+## API info
 
 API basic documentation here: 
 https://app.joindrover.com/api/web/docs/1.0/vehicles/index.html
@@ -76,6 +76,7 @@ start_date = 'dd/mm/yyyy'
 
 vehicle_type = 'Consumer' or 'PCO'
 
+------
 
 ## Notes
 
