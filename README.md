@@ -21,27 +21,28 @@ We know people have different amounts of time to do this test so we have broken 
  
 #### 1. Basic
 
-- Setup an app that calls our API to get vehicles for one user type
-- Display vehicles in a list/table to the user with relevant data
-- Allow at least 1 field in search to be user inputted (details below)
+- Setup an app that calls our API to get vehicles for one vehicle type
+- Display vehicles in a list/table to the user with relevant data (eg: make, model, year, color, price - see notes)
+- Allow at least 2 fields (location is required) in search to be user inputted (submit button? automatic?)
 
 *Bonus:* add some styling
 
 #### 2. Keep going
 
-- Add all fields able to search by for one user type (details below)
+- Add all fields able to search by for one vehicle type (please see live website)
 - Write unit/snapshot tests for most if not all components
 - Add styling to make it look like https://www.joindrover.com/cars/search
 
+*Bonus:* add functionality for pagination
 
 #### 3. All out!
 
-- Search can search for both types of vehicles (Consumer & Private-Hire)
+- Search can search for both types of vehicles (Consumer & Private-Hire aka PCO)
+- Unless already done, Pagination!!
 - Styling as close to original as possible
 - Fully responsive
 
 *Bonus:* add google autocomplete to the location in the search filters
-
 
 
 ## API info
@@ -74,7 +75,13 @@ curl --request POST \
 
 start_date = 'dd/mm/yyyy'
 
-vehicle_type = 'Consumer' or 'PCO'
+vehicle_type = 'Consumer' or 'PCO' (aka private-hire)
+
+we use:
+
+weeks for 'PCO' (aka private-hire)
+
+months for 'Consumer'
 
 ------
 
@@ -82,6 +89,18 @@ vehicle_type = 'Consumer' or 'PCO'
 
 Build good and reusable code and think about components not just one-off rushed building if you can.
 
+Don't worry about the weeks/months slider.
+
 Use a FE library if you want. (We use http://getbootstrap.com 4)
 
+*Pricing*
+
+For pricing use: `price_discount_and_deposit_schedule_hash[number_of_weeks/number_of_months].driver_price_pounds_after_discount_including_insurance`
+
 ** Please push the repo to your GitHub account and share the link with us, DO NOT create a fork **
+
+------
+
+## Questions?
+
+If you have any problems or questions please reach out to us asap on filippo@joindrover.com
