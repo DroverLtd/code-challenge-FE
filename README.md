@@ -29,7 +29,7 @@ We know people have different amounts of time to do this test so we have broken 
 
 #### 2. Keep going
 
-- Add all fields able to search by for one vehicle type (please see live website)
+- Add all fields able to search by for one vehicle type (please see live website for most up-to-date fields)
 - Write unit/snapshot tests for most if not all components
 - Add styling to make it look like https://www.joindrover.com/cars/search
 
@@ -67,7 +67,7 @@ curl --request POST \
 	"price_max": 2500,
 	"price_min" :100,
 	"rolling": false,
-	"start_date": "09/05/2018",
+	"start_date": "09/09/2018",
 	"vehicle_type":"Consumer"	
 }'
 ```
@@ -89,13 +89,17 @@ months for 'Consumer'
 
 Build good and reusable code and think about components not just one-off rushed building if you can.
 
+KEEP IT DRY!
+
 Don't worry about the weeks/months slider.
 
 Use a FE library if you want. (We use http://getbootstrap.com 4)
 
 *Pricing*
 
-For pricing use: `price_discount_and_deposit_schedule_hash[number_of_weeks/number_of_months].driver_price_pounds_after_discount_including_insurance`
+For pricing Consumer use: `price_discount_and_deposit_schedule_hash[number_of_weeks/number_of_months].subtotal_price_pounds`
+
+For pricing PCOd use: `price_discount_and_deposit_schedule_hash[number_of_weeks/number_of_months].driver_price_pounds_after_discount_including_insurance`
 
 ** Please push the repo to your GitHub account and share the link with us, DO NOT create a fork **
 
