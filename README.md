@@ -14,7 +14,8 @@ The page can be found at https://www.joindrover.com/cars/search and there are 2 
 
 ## What do we expect from you?
 
-Using https://github.com/facebook/create-react-app as a boilerplate (or any other you might prefer) try and get as much done as possible.
+We mostly use React on our FE so we suggest starting with https://github.com/facebook/create-react-app as a boilerplate.
+However, if you have more experience with another FE framework (Vue, Angular, Ember, etc...) please feel free to use that, we are looking for great developers so we're sure you can learn on the job. :)
 
 We know people have different amounts of time to do this test so we have broken it down into sections based on amount of time you have. Please try and do as much as possible but if you only have time for one section we understand, of course, the more you do the better an idea we have of your skills.
  
