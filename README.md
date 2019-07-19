@@ -108,4 +108,4 @@ For pricing PCOd use: `price_discount_and_deposit_schedule_hash[number_of_weeks]
 
 ## Questions?
 
-If you have any problems or questions please reach out to us asap on filippo@joindrover.com
+If you have any problems or questions please reach out to us at techleads@joindrover.com
