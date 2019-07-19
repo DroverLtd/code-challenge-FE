@@ -98,9 +98,9 @@ Use a FE library if you want. (We use http://getbootstrap.com 4)
 
 *Pricing*
 
-For pricing Consumer use: `price_discount_and_deposit_schedule_hash[number_of_weeks/number_of_months].subtotal_price_pounds`
+For pricing Consumer use: `price_discount_and_deposit_schedule_hash[number_of_months].subtotal_price_pounds`
 
-For pricing PCOd use: `price_discount_and_deposit_schedule_hash[number_of_weeks/number_of_months].driver_price_pounds_after_discount_including_insurance`
+For pricing PCOd use: `price_discount_and_deposit_schedule_hash[number_of_weeks].driver_price_pounds_after_discount_including_insurance`
 
 ** Please push the repo to your GitHub account and share the link with us, DO NOT create a fork **
 
