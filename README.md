@@ -6,9 +6,9 @@ Drover is a vehicle rental marketplace where drivers can rent a vehicle from an 
 
 As we are a marketplace we need a way for drivers to search what vehicles are available and filter them somehow.
 
-### Your task will be to build our *Search Page*!
+### Your task will be to build a *Search Page*!
 
-The page can be found at https://www.joindrover.com/cars/search and there are 2 versions of it (Consumer, Private-Hire) with very small differences between the two.
+Our search page can be found at https://www.joindrover.com/cars/search. It's up to you to either copy the design we currently have or try to be creative and do your own styling.
 
 ----
 
