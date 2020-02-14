@@ -32,7 +32,6 @@ We know people have different amounts of time to do this test so we have broken 
 
 - Add all fields able to search by for one vehicle type (please see live website for most up-to-date fields)
 - Write unit/snapshot tests for most if not all components
-- Add styling to make it look like https://www.joindrover.com/cars/search
 
 *Bonus:* add functionality for pagination
 
