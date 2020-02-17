@@ -47,9 +47,6 @@ We know people have different amounts of time to do this test so we have broken 
 
 ## API info
 
-API basic documentation here: 
-https://app.joindrover.com/api/web/docs/1.0/vehicles/index.html
-
 **Example request:**
 ```
 curl --request POST \
